@@ -47,11 +47,20 @@ id_rsa*
 credentials*.json
 gcp-key*.json
 
-# Pulumi: archivos de respaldo o temporales
+# Pulumi: archivos de proyecto, stacks y respaldos
+Pulumi.yaml
+Pulumi.*.yaml
+Pulumi.*.yml
 Pulumi.*.bak
 Pulumi.*.old
 Pulumi.*.tmp
 .pulumi/
+
+# Scripts de despliegue
+deploy.sh
+
+# Documentación Markdown
+*.md
 
 # Editores e IDEs
 .idea/
