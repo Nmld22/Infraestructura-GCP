@@ -1,0 +1,12 @@
+encryptionsalt: v1:uu/jltW/zCY=:v1:Rf8dpjNUjcPJUIw0:+ToTlkQ4hH/FuFA/3Nuz0L8noFFBwQ==
+config:
+  gcp:project: tracking-y-telemetria
+  gcp:region: us-central1
+  gcp:zone: us-central1-a
+  memoria-gcp-iac-piloto:environment: dev
+  memoria-gcp-iac-piloto:grafanaDbPassword:
+    secure: v1:TqkrAiu9RDJOAjoq:CMgTQLygiN2nybHJx4c8fdwNsFJ4NF0DtSk=
+  memoria-gcp-iac-piloto:dbPassword:
+    secure: v1:D7aVc68diQwc3gK7:ReVjZnKpCyouGswg31od0GNmD7JJ
+  memoria-gcp-iac-piloto:jwtSecret:
+    secure: v1:+PHQrphFqNYqcDuU:dXhGOfF84LqtiolYX9q0Htx4ss7E

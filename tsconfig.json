@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "bin",
+    "target": "es2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "memoria-gcp-iac-piloto",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@pulumi/gcp": "^7.20.0",
+    "@pulumi/pulumi": "^3.115.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

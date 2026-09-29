@@ -1,0 +1,80 @@
+# =============================================================================
+# .gitignore — Infraestructura alternativa (Pulumi + TypeScript + GCP)
+# =============================================================================
+
+# Dependencias de Node / Gestores de paquetes
+node_modules/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.npm/
+
+# Compilación y artefactos de TypeScript
+dist/
+build/
+out/
+bin/
+*.tsbuildinfo
+
+# Logs y depuración
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variables de entorno y configuraciones locales
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!.env.template
+
+# Certificados, llaves SSH y credenciales de Cloud
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+*.pub
+id_rsa*
+*serviceaccount*.json
+*service-account*.json
+credentials*.json
+gcp-key*.json
+
+# Pulumi: archivos de respaldo o temporales
+Pulumi.*.bak
+Pulumi.*.old
+Pulumi.*.tmp
+.pulumi/
+
+# Editores e IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cobertura y temporales
+coverage/
+.nyc_output/
+tmp/
+temp/
+*.tmp
+*.bak
